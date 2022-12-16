@@ -4,7 +4,7 @@ public class DayOne
 {
     public static void Day1()
     {
-        var lines = File.ReadAllLines("""F:\Programmieren\AdventOfCode2022\DayOne\input.txt""");
+        var lines = File.ReadAllLines(@"F:\Programmieren\AdventOfCode2022\DayOne\input.txt");
 
         var currCal = 0;
         var calList = new List<int>();
